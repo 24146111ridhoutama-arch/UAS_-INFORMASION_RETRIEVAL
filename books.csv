@@ -1,40 +1,14 @@
 title,price,rating,availability,link
-Book 1,£10.99,One,In stock,https://books.toscrape.com
-Book 2,£11.99,Two,In stock,https://books.toscrape.com
-Book 3,£12.99,Three,In stock,https://books.toscrape.com
-Book 4,£13.99,Four,In stock,https://books.toscrape.com
-Book 5,£14.99,Five,In stock,https://books.toscrape.com
-Book 6,£15.99,One,In stock,https://books.toscrape.com
-Book 7,£16.99,Two,In stock,https://books.toscrape.com
-Book 8,£17.99,Three,In stock,https://books.toscrape.com
-Book 9,£18.99,Four,In stock,https://books.toscrape.com
-Book 10,£19.99,Five,In stock,https://books.toscrape.com
-Book 11,£20.99,One,In stock,https://books.toscrape.com
-Book 12,£21.99,Two,In stock,https://books.toscrape.com
-Book 13,£22.99,Three,In stock,https://books.toscrape.com
-Book 14,£23.99,Four,In stock,https://books.toscrape.com
-Book 15,£24.99,Five,In stock,https://books.toscrape.com
-Book 16,£25.99,One,In stock,https://books.toscrape.com
-Book 17,£26.99,Two,In stock,https://books.toscrape.com
-Book 18,£27.99,Three,In stock,https://books.toscrape.com
-Book 19,£28.99,Four,In stock,https://books.toscrape.com
-Book 20,£29.99,Five,In stock,https://books.toscrape.com
-Book 21,£30.99,One,In stock,https://books.toscrape.com
-Book 22,£31.99,Two,In stock,https://books.toscrape.com
-Book 23,£32.99,Three,In stock,https://books.toscrape.com
-Book 24,£33.99,Four,In stock,https://books.toscrape.com
-Book 25,£34.99,Five,In stock,https://books.toscrape.com
-Book 26,£35.99,One,In stock,https://books.toscrape.com
-Book 27,£36.99,Two,In stock,https://books.toscrape.com
-Book 28,£37.99,Three,In stock,https://books.toscrape.com
-Book 29,£38.99,Four,In stock,https://books.toscrape.com
-Book 30,£39.99,Five,In stock,https://books.toscrape.com
-Book 31,£40.99,One,In stock,https://books.toscrape.com
-Book 32,£41.99,Two,In stock,https://books.toscrape.com
-Book 33,£42.99,Three,In stock,https://books.toscrape.com
-Book 34,£43.99,Four,In stock,https://books.toscrape.com
-Book 35,£44.99,Five,In stock,https://books.toscrape.com
-Book 36,£45.99,One,In stock,https://books.toscrape.com
+A Light in the Attic,£51.77,Three,In stock,https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+Tipping the Velvet,£53.74,One,In stock,https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+Soumission,£50.10,One,In stock,https://books.toscrape.com/catalogue/soumission_998/index.html
+Sharp Objects,£47.82,Four,In stock,https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+Sapiens: A Brief History of Humankind,£54.23,Five,In stock,https://books.toscrape.com
+The Great Gatsby,£45.99,Four,In stock,https://books.toscrape.com
+To Kill a Mockingbird,£49.99,Five,In stock,https://books.toscrape.com
+1984,£39.99,Five,In stock,https://books.toscrape.com
+The Hobbit,£41.50,Four,In stock,https://books.toscrape.com
+Pride and Prejudice,£36.99,Five,In stock,https://books.toscrape.comBook 36,£45.99,One,In stock,https://books.toscrape.com
 Book 37,£46.99,Two,In stock,https://books.toscrape.com
 Book 38,£47.99,Three,In stock,https://books.toscrape.com
 Book 39,£48.99,Four,In stock,https://books.toscrape.com
