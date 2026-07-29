@@ -10,7 +10,7 @@ Ridho Utama
 Information Retrieval
 
 ## Link Streamlit
-Tempel link Streamlit di sini setelah deploy.
+https://uas-informasionretrieval-3bsgscku7nkeupn86tmgnz.streamlit.app/
 
 ## Cara Menjalankan
 
