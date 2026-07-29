@@ -1,24 +1,27 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="UAS Information Retrieval")
+st.set_page_config(page_title="Book Search", page_icon="📚")
 
-st.title("📚 UAS Information Retrieval")
-st.write("Nama : Ridho Utama")
-st.write("NIM : 24146111")
+st.title("📚 Book Search (Scraped via Scrapy)")
 
-# Membaca data otomatis dari GitHub
-df = pd.read_csv("data.csv")
+# Membaca data hasil Scrapy
+df = pd.read_csv("books.csv")
 
-st.subheader("Data Buku")
-st.dataframe(df)
-
-keyword = st.text_input("Cari Judul atau Kategori")
+keyword = st.text_input("Cari judul buku:")
 
 if keyword:
-    hasil = df[df.astype(str).apply(
-        lambda x: x.str.contains(keyword, case=False)
-    ).any(axis=1)]
+    hasil = df[df["title"].str.contains(keyword, case=False, na=False)]
+else:
+    hasil = df
 
-    st.subheader("Hasil Pencarian")
-    st.dataframe(hasil)
+st.success(f"✨ Ditemukan {len(hasil)} hasil")
+
+for _, row in hasil.iterrows():
+    st.markdown(f"## [{row['title']}]({row['link']})")
+    st.write(
+        f"**Price:** {row['price']} | "
+        f"**Rating:** {row['rating']} | "
+        f"**Availability:** {row['availability']}"
+    )
+    st.divider()
