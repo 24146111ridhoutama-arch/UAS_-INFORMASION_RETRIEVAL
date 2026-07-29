@@ -5,8 +5,8 @@ st.set_page_config(page_title="Book Search", page_icon="📚")
 
 st.title("📚 Book Search (Scraped via Scrapy)")
 
-# Membaca data hasil Scrapy
-df = pd.read_csv("books.csv")
+# Membaca CSV dengan pemisah ;
+df = pd.read_csv("books.csv", sep=";")
 
 keyword = st.text_input("Cari judul buku:")
 
@@ -18,10 +18,9 @@ else:
 st.success(f"✨ Ditemukan {len(hasil)} hasil")
 
 for _, row in hasil.iterrows():
-    st.markdown(f"## [{row['title']}]({row['link']})")
-    st.write(
-        f"**Price:** {row['price']} | "
-        f"**Rating:** {row['rating']} | "
-        f"**Availability:** {row['availability']}"
-    )
+    st.markdown(f"### {row['title']}")
+    st.write(f"**Price:** {row['price']}")
+    st.write(f"**Rating:** {row['rating']}")
+    st.write(f"**Availability:** {row['availability']}")
+    st.markdown(f"[Lihat Buku]({row['link']})")
     st.divider()
