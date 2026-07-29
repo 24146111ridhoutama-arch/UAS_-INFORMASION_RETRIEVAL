@@ -1,1 +1,20 @@
-# UAS_-INFORMASION_RETRIEVAL
+# UAS Information Retrieval
+
+## Nama
+Ridho Utama
+
+## NIM
+24146111
+
+## Mata Kuliah
+Information Retrieval
+
+## Link Streamlit
+Tempel link Streamlit di sini setelah deploy.
+
+## Cara Menjalankan
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
